@@ -59,4 +59,4 @@ This application allows users to create and simulate an investment portfolio usi
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
