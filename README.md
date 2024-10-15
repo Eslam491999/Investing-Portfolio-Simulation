@@ -4,7 +4,7 @@ This application allows users to create and simulate an investment portfolio usi
 
 ## Features
 
-- Select stocks from a predefined list (Apple, Google, Amazon, Microsoft, Tesla).
+- Select stocks from a predefined list (e.g., AAPL, AMZN, MSFT).
 - Choose a date range for the simulation.
 - Set an initial cash amount for the portfolio.
 - Select a lookup period for resampling (weekly, monthly, quarterly).
@@ -52,9 +52,12 @@ This application allows users to create and simulate an investment portfolio usi
 
 ## Usage
 
-1. Open the application in your web browser (the terminal will show the URL).
-2. Select stocks, date range, lookup period, initial cash amount, and weight calculation strategies.
-3. Click the "Simulate Portfolio" button to generate the portfolio performance results and visualizations.
+1. Select one or more stocks from the list (e.g., AAPL, AMZN, MSFT).
+2. Choose a date range for your portfolio simulation.
+3. Choose a lookup period (Weekly, Monthly, or Quarterly).
+4. Enter an initial cash amount for the portfolio.
+5. Select one or more weight calculation strategies (Equal Weight, Risk Parity, etc.).
+6. Click "Simulate Portfolio" to visualize the portfolio value over time for each selected strategy.
 
 ## License
 
