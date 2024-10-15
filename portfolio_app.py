@@ -96,7 +96,7 @@ available_stocks = ['AAPL', 'ADBE', 'AEYE', 'AMD', 'AMZN', 'ANET', 'ARKG', 'ARKK
                     'DT', 'FTI', 'FTNT', 'GOOGL', 'GTEK', 'HUBS', 'INTC', 'KLAC', 'LCID', 'LLY', 
                     'LPLA', 'LRCX', 'MA', 'MARA', 'MELI', 'META', 'MRVL', 'MSFT', 'MSI', 'MSTR', 
                     'MU', 'NFLX', 'NIO', 'NOW', 'NVDA', 'ORCL', 'OXY', 'PANW', 'PATH', 'QCOM', 
-                    'RBLX', 'RIOT', 'RIVN', 'ROIV', 'ROKU', 'SMCI', 'SMH', 'SOUN', 'SP', 'SPCE', 
+                    'RBLX', 'RIOT', 'RIVN', 'ROIV', 'ROKU', 'SMCI', 'SMH', 'SOUN', 'SPCE', 
                     'SQ', 'TEAM', 'TSLA', 'TSM', 'TWLO', 'U', 'UBER', 'V', 'VKTX', 'VRT', 
                     'WDAY', 'XLE', 'XLF', 'ZM']
 selected_stocks = st.multiselect('Select stocks for your portfolio', available_stocks)
