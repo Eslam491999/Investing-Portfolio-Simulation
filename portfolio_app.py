@@ -92,13 +92,10 @@ st.title('Investment Portfolio Creator')
 
 # User input: Select stocks
 available_stocks = ['AAPL', 'ADBE', 'AEYE', 'AMD', 'AMZN', 'ANET', 'ARKG', 'ARKK', 'ASML', 'AVGO', 
-                    'BILL', 'CELH', 'CMG', 'COIN', 'COST', 'CRM', 'CRWD', 'CYBR', 'DDOG', 'DKNG', 
-                    'DT', 'FTI', 'FTNT', 'GOOGL', 'GTEK', 'HUBS', 'INTC', 'KLAC', 'LCID', 'LLY', 
-                    'LPLA', 'LRCX', 'MA', 'MARA', 'MELI', 'META', 'MRVL', 'MSFT', 'MSI', 'MSTR', 
-                    'MU', 'NFLX', 'NIO', 'NOW', 'NVDA', 'ORCL', 'OXY', 'PANW', 'PATH', 'QCOM', 
-                    'RBLX', 'RIOT', 'RIVN', 'ROIV', 'ROKU', 'SMCI', 'SMH', 'SOUN', 'SPCE', 
-                    'SQ', 'TEAM', 'TSLA', 'TSM', 'TWLO', 'U', 'UBER', 'V', 'VKTX', 'VRT', 
-                    'WDAY', 'XLE', 'XLF', 'ZM']
+                    'CELH', 'CMG', 'COST', 'CRM', 'CYBR', 'FTI', 'FTNT', 'GOOGL', 'HUBS', 'INTC', 
+                    'KLAC', 'LLY', 'LPLA', 'LRCX', 'MA', 'MARA', 'MELI', 'META', 'MRVL', 'MSFT', 
+                    'MSI', 'MSTR', 'MU', 'NFLX', 'NOW', 'NVDA', 'ORCL', 'OXY', 'PANW', 'QCOM', 
+                    'SMCI', 'SMH', 'TSLA', 'TSM', 'V', 'WDAY', 'XLE', 'XLF']
 selected_stocks = st.multiselect('Select stocks for your portfolio', available_stocks)
 
 # User input: Select date range
