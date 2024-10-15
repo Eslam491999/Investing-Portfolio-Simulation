@@ -91,7 +91,7 @@ def calculate_portfolio_performance(stocks, start_date, end_date, lookup_period,
 st.title('Investment Portfolio Creator')
 
 # User input: Select stocks
-available_stocks = ['AAPL', 'ADBE', 'AEYE', 'AMD', 'AMZN', 'ANET', 'ARKG', 'ARKK', 'ASML', 'AVGO']
+available_stocks = ['AAPL', 'ADBE', 'AEYE', 'AMD', 'AMZN', 'ANET', 'ARKG', 'ARKK', 'ASML', 'AVGO', 
                     'BILL', 'CELH', 'CMG', 'COIN', 'COST', 'CRM', 'CRWD', 'CYBR', 'DDOG', 'DKNG', 
                     'DT', 'FTI', 'FTNT', 'GOOGL', 'GTEK', 'HUBS', 'INTC', 'KLAC', 'LCID', 'LLY', 
                     'LPLA', 'LRCX', 'MA', 'MARA', 'MELI', 'META', 'MRVL', 'MSFT', 'MSI', 'MSTR', 
