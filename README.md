@@ -48,7 +48,7 @@ This application allows users to create and simulate an investment portfolio usi
 
 4. Run the Streamlit application:
    ```bash
-   streamlit run portfolio_app.py  # Replace `app.py` with your actual script name
+   streamlit run portfolio_app.py
    ```
 
 ## Usage
