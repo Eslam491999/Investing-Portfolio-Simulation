@@ -9,10 +9,10 @@ This application allows users to create and simulate an investment portfolio usi
 - Set an initial cash amount for the portfolio.
 - Select a lookup period for resampling (weekly, monthly, quarterly).
 - Choose from different weight calculation strategies:
-  - Equal Weight
-  - Risk Parity
-  - Risk Allocation
-  - Momentum
+ - **Equal Weight**: Assigns equal weight to all selected stocks.
+  - **Risk Parity**: Weights are inversely proportional to the volatility of each stock.
+  - **Risk Allocation**: Weights are proportional to the volatility of each stock.
+  - **Momentum**: Weights are based on the performance of the stocks in the previous period.
 - Visualize portfolio value over time for each strategy.
 - Display stock price data in a table.
 - Calculate and show summary metrics including total return and Sharpe Ratio.
@@ -25,6 +25,11 @@ This application allows users to create and simulate an investment portfolio usi
 - **Pandas**: Data manipulation and analysis.
 - **NumPy**: Numerical operations.
 - **Plotly**: Interactive plotting library for visualizations.
+
+## Requirements
+
+- Python 3.8 or higher
+- Required libraries (see `requirements.txt`)
 
 ## Installation
 
@@ -50,7 +55,7 @@ This application allows users to create and simulate an investment portfolio usi
    streamlit run portfolio_app.py
    ```
 
-## Usage
+## Example Workflow
 
 1. Select one or more stocks from the list (e.g., AAPL, AMZN, MSFT).
 2. Choose a date range for your portfolio simulation.
