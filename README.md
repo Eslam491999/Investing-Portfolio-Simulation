@@ -9,7 +9,7 @@ This application allows users to create and simulate an investment portfolio usi
 - Set an initial cash amount for the portfolio.
 - Select a lookup period for resampling (weekly, monthly, quarterly).
 - Choose from different weight calculation strategies:
- - **Equal Weight**: Assigns equal weight to all selected stocks.
+  - **Equal Weight**: Assigns equal weight to all selected stocks.
   - **Risk Parity**: Weights are inversely proportional to the volatility of each stock.
   - **Risk Allocation**: Weights are proportional to the volatility of each stock.
   - **Momentum**: Weights are based on the performance of the stocks in the previous period.
