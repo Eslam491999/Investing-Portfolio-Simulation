@@ -12,7 +12,6 @@ This application allows users to create and simulate an investment portfolio usi
   - Equal Weight
   - Risk Parity
   - Risk Allocation
-  - Market Neutral
   - Momentum
 - Visualize portfolio value over time for each strategy.
 - Display stock price data in a table.
